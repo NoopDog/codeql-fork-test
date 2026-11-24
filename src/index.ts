@@ -5,3 +5,7 @@ export function greet(name: string): string {
 export function shout(name: string): string {
   return greet(name).toUpperCase();
 }
+
+export function whisper(name: string): string {
+  return greet(name).toLowerCase();
+}
